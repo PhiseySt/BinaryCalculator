@@ -1,7 +1,7 @@
 <html>
 <head>
     <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=WIN1252">
-    <title>Двоичный калькулятор</title>
+    <title>Binary Calculator</title>
     <style type="text/css">
 
         #resWindow {
@@ -86,8 +86,8 @@
         var screenText = "";
 
         function makeHint() {
-            var textMessage = "Кнопки '0,1' - для ввода нуля или единицы; Кнопки '+-/*' - для введения типа действия, " +
-                "Кнопка 'Сброс' - кнопка сброса информациии на экране; Кнопка '=' - для запуска расчета; Кнопки '->8, ->10, ->16' для перевода в соответствующую систему счисления";
+            var textMessage = "ГЉГ­Г®ГЇГЄГЁ '0,1' - Г¤Г«Гї ГўГўГ®Г¤Г  Г­ГіГ«Гї ГЁГ«ГЁ ГҐГ¤ГЁГ­ГЁГ¶Г»; ГЉГ­Г®ГЇГЄГЁ '+-/*' - Г¤Г«Гї ГўГўГҐГ¤ГҐГ­ГЁГї ГІГЁГЇГ  Г¤ГҐГ©Г±ГІГўГЁГї, " +
+                "ГЉГ­Г®ГЇГЄГ  'Г‘ГЎГ°Г®Г±' - ГЄГ­Г®ГЇГЄГ  Г±ГЎГ°Г®Г±Г  ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГЁГЁ Г­Г  ГЅГЄГ°Г Г­ГҐ; ГЉГ­Г®ГЇГЄГ  '=' - Г¤Г«Гї Г§Г ГЇГіГ±ГЄГ  Г°Г Г±Г·ГҐГІГ ; ГЉГ­Г®ГЇГЄГЁ '->8, ->10, ->16' Г¤Г«Гї ГЇГҐГ°ГҐГўГ®Г¤Г  Гў Г±Г®Г®ГІГўГҐГІГ±ГІГўГіГѕГ№ГіГѕ Г±ГЁГ±ГІГҐГ¬Гі Г±Г·ГЁГ±Г«ГҐГ­ГЁГї";
             alert(textMessage);
         }
 
@@ -145,16 +145,16 @@
 
         <div class="jumbotron">
             <h2>
-                Двоичный калькулятор
+                Г„ГўГ®ГЁГ·Г­Г»Г© ГЄГ Г«ГјГЄГіГ«ГїГІГ®Г°
             </h2>
-            <h3>Выполнение базовых вычислений с двоичным типом</h3>
+            <h3>Г‚Г»ГЇГ®Г«Г­ГҐГ­ГЁГҐ ГЎГ Г§Г®ГўГ»Гµ ГўГ»Г·ГЁГ±Г«ГҐГ­ГЁГ© Г± Г¤ГўГ®ГЁГ·Г­Г»Г¬ ГІГЁГЇГ®Г¬</h3>
             <div id="resWindow" maxlength="8"></div>
 
             <div id="btns" class="btn">
                 <div class="upper">
                     <button class="lgreen" id="btnZero" onclick="key('0')">0</button>
                     <button class="lgreen" id="btnOne" onclick="key('1')">1</button>
-                    <button class="lgreen" id="btnClear" onclick="cl()">Сброс</button>
+                    <button class="lgreen" id="btnClear" onclick="cl()">Г‘ГЎГ°Г®Г±</button>
                     <button class="lgreen" id="btnEqual" onclick="makeAction()">=</button>
                 </div>
             </div>
